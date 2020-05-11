@@ -1,0 +1,94 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = src/main/main.o src/main/win32/win32_get_hdd_device_name.o src/main/fat32/fat32_open_device.o src/main/fat32/fat32_close.o src/main/win32/win32_open_device_name.o src/main/win32/win32_open_device_id.o src/main/win32/win32_read_sector.o src/main/hdd/hdd_get_active_partition.o src/main/hdd/hdd_open_device.o src/main/fat32/fat32_print_control_block.o src/main/fat32/fat32_get_first_data_sector.o src/main/fat32/fat32_get_sector_by_cluster.o src/main/fat32/fat32_get_fat_entry_by_cluster.o src/main/fat32/fat32_read_sectors.o src/main/fat32/fat32_get_cluster_size.o src/main/fat32/fat32_print_dir_entry.o src/test/writeBufferToFile.o src/test/openOutputFile.o src/main/fat32/fat32_search_root_dir.o src/main/fat32/fat32_get_cluster_chain.o src/main/fat32/fat32_print_cluster_chain.o src/main/fat32/fat32_read_cluster_chain.o src/main/fat32/fat32_read_sector.o
+LINKOBJ  = src/main/main.o src/main/win32/win32_get_hdd_device_name.o src/main/fat32/fat32_open_device.o src/main/fat32/fat32_close.o src/main/win32/win32_open_device_name.o src/main/win32/win32_open_device_id.o src/main/win32/win32_read_sector.o src/main/hdd/hdd_get_active_partition.o src/main/hdd/hdd_open_device.o src/main/fat32/fat32_print_control_block.o src/main/fat32/fat32_get_first_data_sector.o src/main/fat32/fat32_get_sector_by_cluster.o src/main/fat32/fat32_get_fat_entry_by_cluster.o src/main/fat32/fat32_read_sectors.o src/main/fat32/fat32_get_cluster_size.o src/main/fat32/fat32_print_dir_entry.o src/test/writeBufferToFile.o src/test/openOutputFile.o src/main/fat32/fat32_search_root_dir.o src/main/fat32/fat32_get_cluster_chain.o src/main/fat32/fat32_print_cluster_chain.o src/main/fat32/fat32_read_cluster_chain.o src/main/fat32/fat32_read_sector.o
+LIBS     = -L"E:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"E:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"./include"
+CXXINCS  = -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"./include"
+BIN      = Project1.exe
+CXXFLAGS = $(CXXINCS) -std=c99 -g3
+CFLAGS   = $(INCS) -std=c99 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+src/main/main.o: src/main/main.c
+	$(CC) -c src/main/main.c -o src/main/main.o $(CFLAGS)
+
+src/main/win32/win32_get_hdd_device_name.o: src/main/win32/win32_get_hdd_device_name.c
+	$(CC) -c src/main/win32/win32_get_hdd_device_name.c -o src/main/win32/win32_get_hdd_device_name.o $(CFLAGS)
+
+src/main/fat32/fat32_open_device.o: src/main/fat32/fat32_open_device.c
+	$(CC) -c src/main/fat32/fat32_open_device.c -o src/main/fat32/fat32_open_device.o $(CFLAGS)
+
+src/main/fat32/fat32_close.o: src/main/fat32/fat32_close.c
+	$(CC) -c src/main/fat32/fat32_close.c -o src/main/fat32/fat32_close.o $(CFLAGS)
+
+src/main/win32/win32_open_device_name.o: src/main/win32/win32_open_device_name.c
+	$(CC) -c src/main/win32/win32_open_device_name.c -o src/main/win32/win32_open_device_name.o $(CFLAGS)
+
+src/main/win32/win32_open_device_id.o: src/main/win32/win32_open_device_id.c
+	$(CC) -c src/main/win32/win32_open_device_id.c -o src/main/win32/win32_open_device_id.o $(CFLAGS)
+
+src/main/win32/win32_read_sector.o: src/main/win32/win32_read_sector.c
+	$(CC) -c src/main/win32/win32_read_sector.c -o src/main/win32/win32_read_sector.o $(CFLAGS)
+
+src/main/hdd/hdd_get_active_partition.o: src/main/hdd/hdd_get_active_partition.c
+	$(CC) -c src/main/hdd/hdd_get_active_partition.c -o src/main/hdd/hdd_get_active_partition.o $(CFLAGS)
+
+src/main/hdd/hdd_open_device.o: src/main/hdd/hdd_open_device.c
+	$(CC) -c src/main/hdd/hdd_open_device.c -o src/main/hdd/hdd_open_device.o $(CFLAGS)
+
+src/main/fat32/fat32_print_control_block.o: src/main/fat32/fat32_print_control_block.c
+	$(CC) -c src/main/fat32/fat32_print_control_block.c -o src/main/fat32/fat32_print_control_block.o $(CFLAGS)
+
+src/main/fat32/fat32_get_first_data_sector.o: src/main/fat32/fat32_get_first_data_sector.c
+	$(CC) -c src/main/fat32/fat32_get_first_data_sector.c -o src/main/fat32/fat32_get_first_data_sector.o $(CFLAGS)
+
+src/main/fat32/fat32_get_sector_by_cluster.o: src/main/fat32/fat32_get_sector_by_cluster.c
+	$(CC) -c src/main/fat32/fat32_get_sector_by_cluster.c -o src/main/fat32/fat32_get_sector_by_cluster.o $(CFLAGS)
+
+src/main/fat32/fat32_get_fat_entry_by_cluster.o: src/main/fat32/fat32_get_fat_entry_by_cluster.c
+	$(CC) -c src/main/fat32/fat32_get_fat_entry_by_cluster.c -o src/main/fat32/fat32_get_fat_entry_by_cluster.o $(CFLAGS)
+
+src/main/fat32/fat32_read_sectors.o: src/main/fat32/fat32_read_sectors.c
+	$(CC) -c src/main/fat32/fat32_read_sectors.c -o src/main/fat32/fat32_read_sectors.o $(CFLAGS)
+
+src/main/fat32/fat32_get_cluster_size.o: src/main/fat32/fat32_get_cluster_size.c
+	$(CC) -c src/main/fat32/fat32_get_cluster_size.c -o src/main/fat32/fat32_get_cluster_size.o $(CFLAGS)
+
+src/main/fat32/fat32_print_dir_entry.o: src/main/fat32/fat32_print_dir_entry.c
+	$(CC) -c src/main/fat32/fat32_print_dir_entry.c -o src/main/fat32/fat32_print_dir_entry.o $(CFLAGS)
+
+src/test/writeBufferToFile.o: src/test/writeBufferToFile.c
+	$(CC) -c src/test/writeBufferToFile.c -o src/test/writeBufferToFile.o $(CFLAGS)
+
+src/test/openOutputFile.o: src/test/openOutputFile.c
+	$(CC) -c src/test/openOutputFile.c -o src/test/openOutputFile.o $(CFLAGS)
+
+src/main/fat32/fat32_search_root_dir.o: src/main/fat32/fat32_search_root_dir.c
+	$(CC) -c src/main/fat32/fat32_search_root_dir.c -o src/main/fat32/fat32_search_root_dir.o $(CFLAGS)
+
+src/main/fat32/fat32_get_cluster_chain.o: src/main/fat32/fat32_get_cluster_chain.c
+	$(CC) -c src/main/fat32/fat32_get_cluster_chain.c -o src/main/fat32/fat32_get_cluster_chain.o $(CFLAGS)
+
+src/main/fat32/fat32_print_cluster_chain.o: src/main/fat32/fat32_print_cluster_chain.c
+	$(CC) -c src/main/fat32/fat32_print_cluster_chain.c -o src/main/fat32/fat32_print_cluster_chain.o $(CFLAGS)
+
+src/main/fat32/fat32_read_cluster_chain.o: src/main/fat32/fat32_read_cluster_chain.c
+	$(CC) -c src/main/fat32/fat32_read_cluster_chain.c -o src/main/fat32/fat32_read_cluster_chain.o $(CFLAGS)
+
+src/main/fat32/fat32_read_sector.o: src/main/fat32/fat32_read_sector.c
+	$(CC) -c src/main/fat32/fat32_read_sector.c -o src/main/fat32/fat32_read_sector.o $(CFLAGS)

@@ -1,0 +1,16 @@
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12_Semaphore\obj\Debug\SP12_Semaphore.Properties.Resources.resources
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12_Semaphore\obj\Debug\SP12_Semaphore.csproj.GenerateResource.cache
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12_Semaphore\bin\Debug\SP12_Semaphore.exe.config
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12_Semaphore\bin\Debug\SP12_Semaphore.exe
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12_Semaphore\bin\Debug\SP12_Semaphore.pdb
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12_Semaphore\obj\Debug\SP12_Semaphore.csprojAssemblyReference.cache
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12_Semaphore\obj\Debug\SP12_Semaphore.exe
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12_Semaphore\obj\Debug\SP12_Semaphore.pdb
+E:\SP\OSIS\lab12_Semaphore\bin\Debug\SP12_Semaphore.exe.config
+E:\SP\OSIS\lab12_Semaphore\bin\Debug\SP12_Semaphore.exe
+E:\SP\OSIS\lab12_Semaphore\bin\Debug\SP12_Semaphore.pdb
+E:\SP\OSIS\lab12_Semaphore\obj\Debug\SP12_Semaphore.csprojAssemblyReference.cache
+E:\SP\OSIS\lab12_Semaphore\obj\Debug\SP12_Semaphore.Properties.Resources.resources
+E:\SP\OSIS\lab12_Semaphore\obj\Debug\SP12_Semaphore.csproj.GenerateResource.cache
+E:\SP\OSIS\lab12_Semaphore\obj\Debug\SP12_Semaphore.exe
+E:\SP\OSIS\lab12_Semaphore\obj\Debug\SP12_Semaphore.pdb

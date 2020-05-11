@@ -1,0 +1,8 @@
+E:\SP\OSIS\lab12\bin\Debug\SP12.exe.config
+E:\SP\OSIS\lab12\bin\Debug\SP12.exe
+E:\SP\OSIS\lab12\bin\Debug\SP12.pdb
+E:\SP\OSIS\lab12\obj\Debug\SP12_Mutex.csprojAssemblyReference.cache
+E:\SP\OSIS\lab12\obj\Debug\SP12.Properties.Resources.resources
+E:\SP\OSIS\lab12\obj\Debug\SP12_Mutex.csproj.GenerateResource.cache
+E:\SP\OSIS\lab12\obj\Debug\SP12.exe
+E:\SP\OSIS\lab12\obj\Debug\SP12.pdb

@@ -1,0 +1,8 @@
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12\bin\Debug\SP12.exe.config
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12\bin\Debug\SP12.exe
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12\bin\Debug\SP12.pdb
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12\obj\Debug\SP12.Properties.Resources.resources
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12\obj\Debug\SP12.csproj.GenerateResource.cache
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12\obj\Debug\SP12.exe
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12\obj\Debug\SP12.pdb
+C:\Users\Пользователь\Desktop\labs\OSIS\SP12\obj\Debug\SP12.csprojAssemblyReference.cache
